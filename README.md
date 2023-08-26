@@ -1,5 +1,7 @@
 # IpacPER
-添加一些特殊的权限.
+添加一些特殊的权限. 需要 PaperMC 服务器.
+
+下载: https://modrinth.com/plugin/ipacper/
 
 ```yaml
 permissions:
