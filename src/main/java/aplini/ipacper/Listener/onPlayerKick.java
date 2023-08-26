@@ -13,7 +13,7 @@ public class onPlayerKick implements Listener {
     @EventHandler
     public void onKick(PlayerKickEvent event) {
 //        getLogger().info(event.reason().toString());
-        if(event.reason().toString().equals(kickJson) && event.getPlayer().hasPermission("IpacPER.onPlayerKick.KickedForSpamming")){
+        if(event.reason().toString().equals(kickJson) && event.getPlayer().hasPermission("IpacPER.onPlayerKickForSpamming")){
             event.setCancelled(true);
         }
     }
