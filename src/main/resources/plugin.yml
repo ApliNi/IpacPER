@@ -16,3 +16,7 @@ permissions:
   IpacPER.onPlayerKickForSpamming:
     default: false
     description: '绕过滥发消息踢出'
+
+  IpacPER.DEV.onPlayerVirtualInventoryEventPreventCancelled:
+    default: false
+    description: '强制允许玩家操作虚拟库存, 用于解决 OpenInv 影响箱子GUI功能'

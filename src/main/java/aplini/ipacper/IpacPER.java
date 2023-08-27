@@ -1,5 +1,6 @@
 package aplini.ipacper;
 
+import aplini.ipacper.Listener.onInventory;
 import aplini.ipacper.Listener.onPlayerAdvancement;
 import aplini.ipacper.Listener.onPlayerKick;
 import aplini.ipacper.Listener.onPlayerTP;
@@ -15,6 +16,7 @@ public final class IpacPER extends JavaPlugin implements Listener {
         getServer().getPluginManager().registerEvents(new onPlayerTP(), this);
         getServer().getPluginManager().registerEvents(new onPlayerKick(), this);
         getServer().getPluginManager().registerEvents(new onPlayerAdvancement(), this);
+        getServer().getPluginManager().registerEvents(new onInventory(), this);
     }
 
     @Override
