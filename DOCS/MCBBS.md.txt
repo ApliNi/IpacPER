@@ -1,6 +1,6 @@
 [postbg]bg5.png[/postbg][markdown]
 
-https://github.com/ApliNi/BedrockMinerPlugin
+https://github.com/ApliNi/IpacPER
 
 ---
 
@@ -9,6 +9,7 @@ https://github.com/ApliNi/BedrockMinerPlugin
 
 下载: https://github.com/ApliNi/IpacPER/releases
 
+### 权限
 ```yaml
 permissions:
 
