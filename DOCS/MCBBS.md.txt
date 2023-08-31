@@ -1,0 +1,40 @@
+[postbg]bg5.png[/postbg][markdown]
+
+https://github.com/ApliNi/BedrockMinerPlugin
+
+---
+
+# IpacPER
+添加一些特殊的权限. 需要 PaperMC 服务器.
+
+下载: https://github.com/ApliNi/IpacPER/releases
+
+```yaml
+permissions:
+
+  IpacPER.onPlayerAdvancementDoneEvent:
+    default: true
+    description: '允许玩家获取成就'
+
+  IpacPER.onPlayerSpectatorTPGUI:
+    default: true
+    description: '允许旁观模式使用GUI进行传送'
+
+  IpacPER.onPlayerKickForSpamming:
+    default: false
+    description: '绕过滥发消息踢出'
+
+  IpacPER.DEV.onPlayerVirtualInventoryEventPreventCancelled:
+    default: false
+    description: '强制允许玩家操作虚拟库存, 用于解决 OpenInv 影响箱子GUI功能'
+```
+
+---
+
+### MCBBS
+本插件所用所有代码均为原创,不存在借用/抄袭等行为
+本插件为非盈利性插件，免费发布，严禁销售和转卖
+
+插件没有指令
+
+[/markdown]
